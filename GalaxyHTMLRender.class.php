@@ -3,7 +3,7 @@
  * Galaxy HTML Render
  * Works with PHP 5.4 and above.
  */
-class GalaxyHTMLRender extends \Exception
+class GalaxyHTMLRender extends Exception
 {
 
     public static $DIR = '/view/'; /* template directory */
